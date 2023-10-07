@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
+	box-sizing: border-box;
+	font-size: 16px !important;
+}
+
+* {
+	margin: 0;
+
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Nunito', sans-serif !important; */
+	/* font-family: 'Raleway', sans-serif; */
+	line-height: 1.6;
+	font-size: 1.6rem;
+	background-color: white;
+	color: #333;
+
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+img {
+	width: 100%;
+}
+
+:root {
+
+	--bgColor1: #FFFFFF;
+	--bgColor2: #FBFBFB;
+	--bgColor3: #DEEBF3;
+
+	--textColor1: #696B6D;
+	--textColor2: #3A3C3D;
+	--textColor3: #000000;
+
+	--mainColor1: #088DCD;
+	--mainColor2: #2F3B59;
+	--mainColor3: #FF8200;
+	--mainColor4: #DA0000;
+
+	--successColor: #439e4a;
+
+
+}
+
+@media (max-width: 1920px) {
+	.container {
+		padding-left: 10% !important;
+		padding-right: 10% !important;
+	}
+}
+
+@media (max-width: 1600px) {
+	.container {
+		padding-left: 4% !important;
+		padding-right: 4% !important;
+	}
+}
